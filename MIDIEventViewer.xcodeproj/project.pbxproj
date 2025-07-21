@@ -16,11 +16,8 @@
 		35BB3F9415D6D8FC0079230E /* ViewerEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BB3F9315D6D8FC0079230E /* ViewerEvent.m */; };
 		46048F6E2652E58A007A15CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46048F6D2652E58A007A15CF /* Images.xcassets */; };
 		463C18502A34D84D002FE4DD /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = 463C184F2A34D84D002FE4DD /* Credits.html */; };
-		46690C462E1FE27E00194C95 /* LTPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 46690C422E1FE27E00194C95 /* LTPopup.m */; };
-		46690C472E1FE27E00194C95 /* LTVersionCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 46690C452E1FE27E00194C95 /* LTVersionCheck.m */; };
-		46690C482E1FE27E00194C95 /* LTPopup.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46690C432E1FE27E00194C95 /* LTPopup.xib */; };
-		46690C632E1FE4C700194C95 /* LTInfoWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46690C622E1FE4C700194C95 /* LTInfoWindow.xib */; };
-		46690C642E1FE4C700194C95 /* LTInfoWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 46690C612E1FE4C700194C95 /* LTInfoWindow.m */; };
+		46592ACB296D8D2900FF0F1F /* LTInfoWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 46592AC8296D8D2900FF0F1F /* LTInfoWindow.m */; };
+		46592ACC296D8D2900FF0F1F /* LTInfoWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46592ACA296D8D2900FF0F1F /* LTInfoWindow.xib */; };
 		46B9AC8929845DFF005E4FAE /* help in Resources */ = {isa = PBXBuildFile; fileRef = 46B9AC8829845DFF005E4FAE /* help */; };
 		46D6CD902D678FA20021CB0D /* icon_256x256@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46D6CD8D2D678FA20021CB0D /* icon_256x256@2x.png */; };
 		46D6CD912D678FA20021CB0D /* icon_16x16.png in Resources */ = {isa = PBXBuildFile; fileRef = 46D6CD862D678FA20021CB0D /* icon_16x16.png */; };
@@ -33,6 +30,9 @@
 		46D6CD982D678FA20021CB0D /* icon_16x16@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46D6CD872D678FA20021CB0D /* icon_16x16@2x.png */; };
 		46D6CD992D678FA20021CB0D /* icon_256x256.png in Resources */ = {isa = PBXBuildFile; fileRef = 46D6CD8C2D678FA20021CB0D /* icon_256x256.png */; };
 		46D6CD9B2D67CDAD0021CB0D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46D6CD9A2D67CDAD0021CB0D /* AudioToolbox.framework */; };
+		46FB5AD2298990C40025E6E5 /* LTVersionCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 46FB5AD1298990C40025E6E5 /* LTVersionCheck.m */; };
+		46FB5AD6298990E50025E6E5 /* LTPopup.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46FB5AD3298990E50025E6E5 /* LTPopup.xib */; };
+		46FB5AD7298990E50025E6E5 /* LTPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 46FB5AD5298990E50025E6E5 /* LTPopup.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,16 +49,9 @@
 		35BB3F9315D6D8FC0079230E /* ViewerEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewerEvent.m; sourceTree = "<group>"; };
 		46048F6D2652E58A007A15CF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		463C184F2A34D84D002FE4DD /* Credits.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Credits.html; sourceTree = "<group>"; };
-		46690BD62E1FD01900194C95 /* LTLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTLog.h; sourceTree = "<group>"; };
-		46690BE82E1FD39300194C95 /* LTMidi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTMidi.h; sourceTree = "<group>"; };
-		46690C412E1FE27E00194C95 /* LTPopup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTPopup.h; sourceTree = "<group>"; };
-		46690C422E1FE27E00194C95 /* LTPopup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTPopup.m; sourceTree = "<group>"; };
-		46690C432E1FE27E00194C95 /* LTPopup.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LTPopup.xib; sourceTree = "<group>"; };
-		46690C442E1FE27E00194C95 /* LTVersionCheck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTVersionCheck.h; sourceTree = "<group>"; };
-		46690C452E1FE27E00194C95 /* LTVersionCheck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTVersionCheck.m; sourceTree = "<group>"; };
-		46690C602E1FE4C700194C95 /* LTInfoWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTInfoWindow.h; sourceTree = "<group>"; };
-		46690C612E1FE4C700194C95 /* LTInfoWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTInfoWindow.m; sourceTree = "<group>"; };
-		46690C622E1FE4C700194C95 /* LTInfoWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LTInfoWindow.xib; sourceTree = "<group>"; };
+		46592AC8296D8D2900FF0F1F /* LTInfoWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LTInfoWindow.m; path = ../../LTCommon/LTInfoWindow.m; sourceTree = "<group>"; };
+		46592AC9296D8D2900FF0F1F /* LTInfoWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LTInfoWindow.h; path = ../../LTCommon/LTInfoWindow.h; sourceTree = "<group>"; };
+		46592ACA296D8D2900FF0F1F /* LTInfoWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LTInfoWindow.xib; path = ../../LTCommon/LTInfoWindow.xib; sourceTree = "<group>"; };
 		46B9AC8829845DFF005E4FAE /* help */ = {isa = PBXFileReference; lastKnownFileType = folder; path = help; sourceTree = "<group>"; };
 		46D6CD862D678FA20021CB0D /* icon_16x16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_16x16.png; sourceTree = "<group>"; };
 		46D6CD872D678FA20021CB0D /* icon_16x16@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_16x16@2x.png"; sourceTree = "<group>"; };
@@ -71,8 +64,15 @@
 		46D6CD8E2D678FA20021CB0D /* icon_512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_512x512.png; sourceTree = "<group>"; };
 		46D6CD8F2D678FA20021CB0D /* icon_512x512@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_512x512@2x.png"; sourceTree = "<group>"; };
 		46D6CD9A2D67CDAD0021CB0D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		46D6CD9C2D68D07D0021CB0D /* LTMidi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LTMidi.h; path = ../LTCommon/LTMidi.h; sourceTree = SOURCE_ROOT; };
 		46D8D28E264F2CE70018A5BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		46DCB25C28A29E2600422083 /* MIDIEventViewer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MIDIEventViewer.entitlements; sourceTree = "<group>"; };
+		46FB5AD0298990C30025E6E5 /* LTVersionCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LTVersionCheck.h; path = ../../LTCommon/LTVersionCheck.h; sourceTree = "<group>"; };
+		46FB5AD1298990C40025E6E5 /* LTVersionCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LTVersionCheck.m; path = ../../LTCommon/LTVersionCheck.m; sourceTree = "<group>"; };
+		46FB5AD3298990E50025E6E5 /* LTPopup.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LTPopup.xib; path = ../../LTCommon/LTPopup.xib; sourceTree = "<group>"; };
+		46FB5AD4298990E50025E6E5 /* LTPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LTPopup.h; path = ../../LTCommon/LTPopup.h; sourceTree = "<group>"; };
+		46FB5AD5298990E50025E6E5 /* LTPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LTPopup.m; path = ../../LTCommon/LTPopup.m; sourceTree = "<group>"; };
+		46FEFD7F28411583005547C4 /* LTLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LTLog.h; path = ../../LTCommon/LTLog.h; sourceTree = "<group>"; };
 		46FF8EED296B5539000069BD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		46FF8EEE296B553E000069BD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		46FF8EEF296B5542000069BD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -129,6 +129,7 @@
 			children = (
 				46787B762D5001E300524A5A /* Model */,
 				35BB3F9015D6D65D0079230E /* GUI */,
+				46FEFD7E2841156C005547C4 /* Common */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -148,20 +149,10 @@
 			children = (
 				35BB3F8015D6CF310079230E /* AppDelegate.h */,
 				35BB3F8115D6CF310079230E /* AppDelegate.m */,
+				35BB3F8315D6CF310079230E /* MainMenu.xib */,
 				35BB3F8B15D6D2560079230E /* MasterViewController.h */,
 				35BB3F8C15D6D2560079230E /* MasterViewController.m */,
 				35BB3F8D15D6D2560079230E /* MasterViewController.xib */,
-				46690C602E1FE4C700194C95 /* LTInfoWindow.h */,
-				46690C612E1FE4C700194C95 /* LTInfoWindow.m */,
-				46690C622E1FE4C700194C95 /* LTInfoWindow.xib */,
-				46690C442E1FE27E00194C95 /* LTVersionCheck.h */,
-				46690C452E1FE27E00194C95 /* LTVersionCheck.m */,
-				46690C412E1FE27E00194C95 /* LTPopup.h */,
-				46690C422E1FE27E00194C95 /* LTPopup.m */,
-				46690C432E1FE27E00194C95 /* LTPopup.xib */,
-				46690BE82E1FD39300194C95 /* LTMidi.h */,
-				46690BD62E1FD01900194C95 /* LTLog.h */,
-				35BB3F8315D6CF310079230E /* MainMenu.xib */,
 			);
 			name = GUI;
 			sourceTree = "<group>";
@@ -193,6 +184,23 @@
 				35BB3F9315D6D8FC0079230E /* ViewerEvent.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		46FEFD7E2841156C005547C4 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				46D6CD9C2D68D07D0021CB0D /* LTMidi.h */,
+				46592AC9296D8D2900FF0F1F /* LTInfoWindow.h */,
+				46592AC8296D8D2900FF0F1F /* LTInfoWindow.m */,
+				46592ACA296D8D2900FF0F1F /* LTInfoWindow.xib */,
+				46FB5AD0298990C30025E6E5 /* LTVersionCheck.h */,
+				46FB5AD1298990C40025E6E5 /* LTVersionCheck.m */,
+				46FB5AD4298990E50025E6E5 /* LTPopup.h */,
+				46FB5AD5298990E50025E6E5 /* LTPopup.m */,
+				46FB5AD3298990E50025E6E5 /* LTPopup.xib */,
+				46FEFD7F28411583005547C4 /* LTLog.h */,
+			);
+			name = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +260,8 @@
 				35BB3F8515D6CF310079230E /* MainMenu.xib in Resources */,
 				463C18502A34D84D002FE4DD /* Credits.html in Resources */,
 				46048F6E2652E58A007A15CF /* Images.xcassets in Resources */,
+				46592ACC296D8D2900FF0F1F /* LTInfoWindow.xib in Resources */,
+				46FB5AD6298990E50025E6E5 /* LTPopup.xib in Resources */,
 				35BB3F8F15D6D2560079230E /* MasterViewController.xib in Resources */,
 				46D6CD902D678FA20021CB0D /* icon_256x256@2x.png in Resources */,
 				46D6CD912D678FA20021CB0D /* icon_16x16.png in Resources */,
@@ -259,11 +269,9 @@
 				46D6CD932D678FA20021CB0D /* icon_512x512.png in Resources */,
 				46D6CD942D678FA20021CB0D /* icon_128x128.png in Resources */,
 				46D6CD952D678FA20021CB0D /* icon_128x128@2x.png in Resources */,
-				46690C482E1FE27E00194C95 /* LTPopup.xib in Resources */,
 				46D6CD962D678FA20021CB0D /* icon_512x512@2x.png in Resources */,
 				46D6CD972D678FA20021CB0D /* icon_32x32@2x.png in Resources */,
 				46D6CD982D678FA20021CB0D /* icon_16x16@2x.png in Resources */,
-				46690C632E1FE4C700194C95 /* LTInfoWindow.xib in Resources */,
 				46D6CD992D678FA20021CB0D /* icon_256x256.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,9 +287,9 @@
 				35BB3F8215D6CF310079230E /* AppDelegate.m in Sources */,
 				35BB3F8E15D6D2560079230E /* MasterViewController.m in Sources */,
 				35BB3F9415D6D8FC0079230E /* ViewerEvent.m in Sources */,
-				46690C462E1FE27E00194C95 /* LTPopup.m in Sources */,
-				46690C472E1FE27E00194C95 /* LTVersionCheck.m in Sources */,
-				46690C642E1FE4C700194C95 /* LTInfoWindow.m in Sources */,
+				46592ACB296D8D2900FF0F1F /* LTInfoWindow.m in Sources */,
+				46FB5AD7298990E50025E6E5 /* LTPopup.m in Sources */,
+				46FB5AD2298990C40025E6E5 /* LTVersionCheck.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

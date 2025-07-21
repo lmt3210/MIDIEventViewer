@@ -10,6 +10,10 @@ information in a Standard MIDI File (SMF).
 
 Releases can be downloaded [here](https://www.larrymtaylor.com/software.php).
 
+## Dependencies
+MIDIEventViewer requires LTCommon. It is available on GitHib 
+[here](https://github.com/lmt3210/LTCommon).
+
 ## Contributing
 
 Contributions that enhance MIDIEventViewer or fix bugs are very much 
