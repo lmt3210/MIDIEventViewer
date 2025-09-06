@@ -6,10 +6,6 @@
 MIDIEventViewer is an application that displays detailed event 
 information in a Standard MIDI File (SMF).
 
-## Downloads
-
-Releases can be downloaded [here](https://www.larrymtaylor.com/software.php).
-
 ## Dependencies
 MIDIEventViewer requires LTCommon. It is available on GitHib 
 [here](https://github.com/lmt3210/LTCommon).
